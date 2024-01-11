@@ -1,4 +1,4 @@
 FROM nginx:latest
 
-COPY web_html /usr/share/nginx/html
+COPY web_temp /usr/share/nginx/html
 EXPOSE 80
